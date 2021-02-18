@@ -18,6 +18,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
     fetchMyAPI();
   }, []);
+  //hssss
 
   const barChart = (
     confirmed ? (
@@ -57,7 +58,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
             borderColor: 'rgba(185, 61, 61, 0.5)',
             backgroundColor: '',
             fill: true,
-          },  {
+          }, {
             data: dailyData.map((data) => data.recovered),
             label: 'Recovered',
             borderColor: 'rgbargba(39, 81, 94, 0.5)',
